@@ -5,9 +5,9 @@ import React from 'react'
 const Team = () => {
   return (
     <div className="py-10">
-      <h1 className="md:text-3xl text-xl text-brandRed font-bold text-center mb-3">Our Team</h1>
+      <h1 className="md:text-3xl text-xl text-brandRed font-bold text-center mb-3">Meet Our Team</h1>
 
-      <p className="text-gray-500 text-lg text-center">Meet the Trailblazers Behind World Wings Logistics</p>
+      <p className="text-gray-500 text-lg text-center">Discover the Trailblazers Behind World Wings Logistics and Immigration Consultants</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-5">
         {ourTeam.map((member, idx) => (
           <Card key={idx} className="flex flex-col rounded-xl p-4 md:p-6 bg-white border border-gray-200 dark:bg-slate-900 dark:border-gray-700">
@@ -20,8 +20,6 @@ const Team = () => {
             </div>
 
             <p className="mt-3 text-gray-500">{member.desc}</p>
-
-
           </Card>
         ))}
       </div>

@@ -32,16 +32,16 @@ const CallToActionSection = () => {
             <CarouselContent>
               {ctaImges.map((imageUrl, index) => (
                 <CarouselItem key={index}>
-                  <img src={imageUrl} alt={"rollinscodes.com"} className="rounded-lg w-full object-cover h-80" />
+                  <img src={imageUrl} alt={"rollinscodes.com"} className="rounded-lg w-full object-cover h-64 md:h-80" />
                 </CarouselItem>
               ))}
 
               <CarouselItem key={"10"}>
-                <img src={ctaImage} alt="rollinscodes.com" className="rounded-lg  w-full object-cover h-80" />
+                <img src={ctaImage} alt="rollinscodes.com" className="rounded-lg  w-full object-cover h-64 md:h-80" />
               </CarouselItem>
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            {/* <CarouselPrevious className="hidden md:block" />
+            <CarouselNext className="hidden md:block" /> */}
           </Carousel>
         </div>
       </Container>

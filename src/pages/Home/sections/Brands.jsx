@@ -4,9 +4,9 @@ import React from 'react'
 
 const Brands = () => {
   return (
-    <div className="my-10">
+    <div className="py-10">
       <Container>
-        <h1 className="lg:text-2xl text-xl font-bold mt-10 ">Assisted International Shopping Agencies</h1>
+        <h1 className="lg:text-2xl text-xl font-bold  ">Assisted International Shopping Agencies</h1>
         <div className="flex flex-wrap items-stretch space-x-6 md:space-x-10 lg:space-x-14 text-justify">
           {brands.map((brand, idx) => (
             <img

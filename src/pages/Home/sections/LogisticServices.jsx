@@ -14,7 +14,7 @@ const LogisticServices = () => {
         <h1 className="md:text-3xl text-xl  font-bold ">
           Explore our <span className="text-brandRed">Services</span>
         </h1>
-        <div className="md:flex items-center space-x-5">
+        <div className="md:flex items-center md:space-x-5">
           <div className="md:w-10/12 mb-2">
             <p className="text-justify">
               You need to take advantage of your global market services. Our Shippers through online services are able to effectively manage cargo and
