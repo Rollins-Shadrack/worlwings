@@ -11,6 +11,10 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import { Textarea } from "@/components/ui/textarea";
 import { contactCards } from "@/constants/contactpage";
+import { Resend } from "resend";
+import { emailApiKey } from "@/constants/global";
+import EmailTemplate from "./EmailTemplate";
+const resend = new Resend(emailApiKey);
 
 const ContactForm = () => {
   const form = useForm({
@@ -27,6 +31,12 @@ const ContactForm = () => {
 
   async function onSubmit(values) {
     console.log(values);
+    await resend.emails.send({
+      from: "rshadrackochieng@gmail.com",
+      to: "rodgers.onyango22@gmail.com",
+      subject: "hello world",
+      react: <EmailTemplate firstName="John" product="MyApp" />,
+    });
   }
   return (
     <div>
@@ -41,7 +51,7 @@ const ContactForm = () => {
               Let's get in <span className="text-brandRed">Touch</span>
             </p>
             <Form {...form}>
-              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                   <FormField
                     control={form.control}
@@ -87,10 +97,10 @@ const ContactForm = () => {
                   />
                   <FormField
                     control={form.control}
-                    name="lastName"
+                    name="mobileNumber"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Last Name</FormLabel>
+                        <FormLabel>Mobile Number</FormLabel>
                         <FormControl>
                           <PhoneInput
                             {...field}
@@ -110,11 +120,7 @@ const ContactForm = () => {
                     <FormItem>
                       <FormLabel>Get a Quote</FormLabel>
                       <FormControl>
-                        <Textarea
-                          placeholder="Get a Quote"
-                          className="resize-none bg-gray-200"
-                          {...field}
-                        />
+                        <Textarea placeholder="Get a Quote" className="resize-none bg-gray-200" {...field} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>

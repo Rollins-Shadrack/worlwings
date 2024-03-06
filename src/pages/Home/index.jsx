@@ -7,6 +7,8 @@ import PlanningProcess from './sections/PlanningProcess';
 import WhereWeShip from '../../components/WhereWeShip';
 import CallToActionSection from '@/components/CallToActionSection';
 import Testimonials from '../../components/Testimonials';
+import { whereWeWorkCards } from '@/constants/homepage';
+import Brands from './sections/Brands';
 
 const index = () => {
   return (
@@ -16,9 +18,14 @@ const index = () => {
       <Container>
         <LogisticServices id="services" />
         <PlanningProcess />
-        <WhereWeShip />
-        <Testimonials/>
+        <WhereWeShip
+          title="Shop and Ship from anywhere around the globe"
+          styles="grid grid-cols-1 md:grid-cols-5 gap-10 my-7"
+          data={whereWeWorkCards}
+        />
+        <Testimonials />
       </Container>
+      <Brands />
       <CallToActionSection />
     </div>
   );

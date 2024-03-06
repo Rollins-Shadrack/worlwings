@@ -10,6 +10,7 @@ const Service = () => {
         <h1 className="md:text-3xl text-xl  font-bold ">
           Explore our <span className="text-brandRed">Services</span>
         </h1>
+
         <div className="md:flex items-center space-x-5">
           <div className="md:w-11/12 mb-2">
             <p className="text-justify">
@@ -17,20 +18,20 @@ const Service = () => {
               efficiently manage applications, streamline the process, access essential information, submit necessary documents, review application
               status, generate standardized reports, and track the progress of immigration journeys worldwide.
             </p>
+            <h4 className="md:text-base text-xs  font-medium my-2">We take pride in facilitation and fast track of the following services:</h4>
           </div>
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-5">
         {immigrationServices.map((card, idx) => (
           <Card key={idx} className="shadow-xl">
+            <img src={card.img} alt="rollinscodes.com" className="w-full object-cover rounded-lg h-40  " />
             <CardHeader className="py-3">
               <div className="flex items-center text-brandBluish">
                 {React.createElement(card.icon, { size: "20" })}
                 <h4 className="text-base ml-3 font-medium">{card.title}</h4>
               </div>
-              <CardDescription>
-                { card.desc}
-              </CardDescription>
+              <CardDescription>{card.desc}</CardDescription>
             </CardHeader>
           </Card>
         ))}

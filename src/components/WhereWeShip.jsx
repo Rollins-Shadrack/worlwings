@@ -1,19 +1,16 @@
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { whereWeWorkCards } from '@/constants/homepage';
 import React from 'react'
 
-const WhereWeShip = () => {
+const WhereWeShip = ({ title, data, styles }) => {
   return (
     <div className="w-full">
       <h4 className="md:text-base text-xs text-brandBluish font-medium ">Where we Work</h4>
-      <h1 className="md:text-4xl text-2xl tracking-wide font-bold  mb-3 md:w-5/12">
-        Shop from <span className="text-brandRed"> Anywhere</span> and <span className="text-brandRed"> Relocate</span> with us
-      </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-7">
-        {whereWeWorkCards.map((card, idx) => (
+      <h1 className="md:text-4xl text-2xl tracking-wide font-bold  mb-3 md:w-5/12">{title}</h1>
+      <div className={styles}>
+        {data.map((card, idx) => (
           <Card key={idx}>
             <div className="relative">
-              <img src={card.img} alt="rollinscodes.com" className="h-52 w-full object-cover rounded-t-lg" />
+              <img src={card.img} alt="rollinscodes.com" className="h-40 w-full object-cover rounded-t-lg" />
               <div className="absolute bottom-0 left-0 bg-white rounded-sm p-2">
                 <img src={card.flag} alt="rollinscodes.com" className="w-10 object-cover" />
               </div>
@@ -27,6 +24,6 @@ const WhereWeShip = () => {
       </div>
     </div>
   );
-}
+};
 
 export default WhereWeShip

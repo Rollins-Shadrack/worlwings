@@ -1,5 +1,6 @@
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { howItWorks } from "@/constants/servicepage";
+import { ArrowDown } from "lucide-react";
 import React from "react";
 
 const HowWeWork = () => {
@@ -43,8 +44,11 @@ const HowWeWork = () => {
               <div className="flex flex-col space-y-4">
                 {howItWorks.map((card, idx) => (
                   <Card key={idx} className="shadow-lg">
-                    <CardHeader className="py-3">
-                      <CardTitle className="text-lg">{card.title}</CardTitle>
+                    <CardHeader className="py-2">
+                      <div className="flex items-center justify-between">
+                        <CardTitle className="text-lg">{card.title}</CardTitle>
+                        {idx !== howItWorks.length - 1 && <ArrowDown />}
+                      </div>
                       <CardDescription>{card.desc}</CardDescription>
                     </CardHeader>
                   </Card>

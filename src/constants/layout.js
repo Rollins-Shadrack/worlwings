@@ -18,11 +18,11 @@ export const footerItems = {
   socials: [
     {
       icon: Facebook,
-      link: "",
+      link: "https://www.facebook.com/share/nTLPNRVhhM3pYzgS/?mibextid=qi2Omg",
     },
     {
       icon: Instagram,
-      link: "",
+      link: "https://www.instagram.com/worldwings609?igsh=c2wyNjg4NGxpb3Nx",
     },
   ],
 };

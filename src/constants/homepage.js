@@ -73,75 +73,115 @@ export const logisticServicesContent = [
     minorDesc: "Our E-commerce Logistics service is your partner in efficient order fulfillment.",
     img: "https://media.istockphoto.com/id/1437739003/photo/beautiful-african-american-woman-using-online-paying-services-on-smart-phone.jpg?s=612x612&w=0&k=20&c=rxOTxq8UXCGpPIM4x3NcRkW3AqXFKezCPgIlg2jVYWw=",
   },
+  {
+    title: "Warehousing",
+    serviceDesc:
+      "Optimize your supply chain with our Warehousing solutions. We specialize in efficient storage management, handling, and distribution of your goods. From inventory control to order fulfillment, our comprehensive warehousing services ensure your products reach their destination seamlessly.",
+    minorDesc:
+      "Experience streamlined logistics and warehousing with our dedicated service. Your partner in efficient order fulfillment and supply chain management.",
+    img: "https://media.istockphoto.com/id/1521289911/photo/container-trucks-parked-loading-package-boxes-pallets-at-warehouse-dock-supply-chain.jpg?s=612x612&w=0&k=20&c=cbaUTGirSEdGMgXoxdHBmOuVJ7LsJaJERY7lnLz5-fg=",
+  },
 ];
 export const whereWeWorkCards = [
   {
     img: "https://media.istockphoto.com/id/923519778/photo/dallas-texas-cityscape.jpg?s=612x612&w=0&k=20&c=i4JccEMqxIs2NwGUgB7-zY_SQVq37G_8aPWcZsKJdBc=",
     flag: "https://media.istockphoto.com/id/524055319/photo/flag-of-the-united-states.jpg?s=612x612&w=0&k=20&c=uHu4Hd0_U1yrKlTWCtslmJNDz-vcL5Zdq8GUwU6EbAg=",
     title: "United States",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consectetur incidunt labore reiciendis minima ut quam exercitationem voluptatibus beatae unde?",
   },
   {
-    img: "https://media.istockphoto.com/id/664160312/photo/urban-scene.jpg?s=612x612&w=0&k=20&c=AcMTriiHb0ky2lSCyL-Bwl036u8M23N9YEuIUc9Uy9E=",
-    flag: "https://media.istockphoto.com/id/1412682586/photo/close-up-view-of-the-canadian-national-flag-waving-in-the-wind.jpg?s=612x612&w=0&k=20&c=41SNjYswewsCWD8wFh3a9zuA_jKrkG1YwZiAau34B34=",
-    title: "Canada",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consectetur incidunt labore reiciendis minima ut quam exercitationem voluptatibus beatae unde?",
+    img: "https://media.istockphoto.com/id/1487205172/photo/early-morning-shot-over-strand-beach-near-cape-town.jpg?s=612x612&w=0&k=20&c=vqf30MXUCPR6ascmnusOvpA5wx2a58GVsqJ6Fzei6sU=",
+    flag: "https://media.istockphoto.com/id/497566021/photo/flag-of-republic-of-south-africa.jpg?s=612x612&w=0&k=20&c=zLmhGuEbuWq5q8epVvCYxZwZFEKz7q9Y8TJk4QPN-yc=",
+    title: "South Africa",
   },
   {
     img: "https://media.istockphoto.com/id/1184398225/photo/growing-asian-cities-night-view-of-pune-city-in-india-during-diwali-festival.jpg?s=612x612&w=0&k=20&c=tJlE2RMCYl6fTC5hkkA3jDBnNXRtOnrj6odmf70aJpI=",
     flag: "https://media.istockphoto.com/id/931097020/photo/india-flag-waving-background.jpg?s=612x612&w=0&k=20&c=jvkGJAnp0c9iDzPQnebTHWw9A-y_lRET65zEHkfetUA=",
     title: "India",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit consectetur incidunt labore reiciendis minima ut quam exercitationem voluptatibus beatae unde?",
+  },
+  {
+    img: "https://media.istockphoto.com/id/526540092/photo/beautiful-modern-city-at-night-in-shanghai-china.jpg?s=612x612&w=0&k=20&c=3CvU2ZTEW-i4mTidCX3hrq4Hps0_9mWGXHBbcGzu3ZY=",
+    flag: "https://media.istockphoto.com/id/509311994/photo/flag-of-china-3d-silk-texture.webp?b=1&s=170667a&w=0&k=20&c=jVSBWFG7Es34SX4RyctgENQluAZcT8WIPMOpYO4AMUg=",
+    title: "China",
+  },
+  {
+    img: "https://media.istockphoto.com/id/913519636/photo/dubai-downtown-at-sunrise-united-arab-emirates.jpg?s=612x612&w=0&k=20&c=1iop0pytLAdYyKchsv9XsisvuL9-Cpm_7IlXO0B8ibw=",
+    flag: "https://media.istockphoto.com/id/1180612997/photo/united-arab-emirates-flag.jpg?s=612x612&w=0&k=20&c=e5PF4jD1qNT8CnKLU48i88NFZ9cfIFWEFt8zSD2KjMU=",
+    title: "Dubai",
+  },
+];
+
+export const whereWeWorkImmigrationCards = [
+  {
+    img: "https://media.istockphoto.com/id/637912692/photo/nairobi-cityscape-capital-city-of-kenya.jpg?s=612x612&w=0&k=20&c=S8wPNq9om-IMcapXFC030ew28nhpYCFYBStX5yxCQbs=",
+    flag: "https://media.istockphoto.com/id/182810324/photo/kenya-flag.jpg?s=612x612&w=0&k=20&c=PWOuVEmYLkFtGAUK19ci7JF-mOoLnfBSOfW-lGYNblk=",
+    title: "Kenya",
+  },
+  {
+    img: "https://media.istockphoto.com/id/1184398225/photo/growing-asian-cities-night-view-of-pune-city-in-india-during-diwali-festival.jpg?s=612x612&w=0&k=20&c=tJlE2RMCYl6fTC5hkkA3jDBnNXRtOnrj6odmf70aJpI=",
+    flag: "https://media.istockphoto.com/id/931097020/photo/india-flag-waving-background.jpg?s=612x612&w=0&k=20&c=jvkGJAnp0c9iDzPQnebTHWw9A-y_lRET65zEHkfetUA=",
+    title: "India",
   },
 ];
 
 export const testimonials = [
   {
     id: 1,
-    name: "Kwame Osei",
-    title: "Intuitive Website Design",
+    name: "Sunit Bhaat",
+    title: "Client",
     review:
-      "Navigating this website is a pleasure! The user interface is beautifully designed, and I appreciate the seamless experience. It's my preferred platform for exploring the digital world.",
+      "I have used world wings to ship my items from India and they provide fast service with great rates. My shipments have always arrived on time and where there have been errors with the shipments of their other clients, they credit your money against your account. I highly recommend them!",
     rating: 5,
   },
   {
     id: 2,
-    name: "Nia Abimbola",
-    title: "Exceptional User Experience",
+    name: "Srinivas Tirupati",
+    title: "Regional Sales Manager",
     review:
-      "I had an outstanding experience using this website. The design is modern, and I could effortlessly explore different features. The attention to detail helped me engage effortlessly.",
+      "Glad we are associated with World Wings!. As a new customer, we are very happy with the outstanding service provided. Compared to the big forwarding companies, your services were so prompt, efficient and personalized. Every single detail was taken care of from start to end. Alyasin was a pleasure to work and was outstanding with follow-up. Looking forwrd to many more shipments with World Wings and working with Alyasin!",
     rating: 4,
   },
   {
     id: 3,
-    name: "Sekou Diop",
-    title: "Innovative Design Solutions",
+    name: "Heinz Green",
+    title: "Client",
     review:
-      "Whether I'm browsing on my phone or desktop, this website offers innovative design solutions. The creative approach ensures a visually appealing and user-friendly experience.",
+      "Just a quick note to say a very heartfelt THANK YOU for taking the time and walking me through this process!. I was at wit's end!! And had no where else to tuen , all of these other freight compnies had an OH WELL attitude. You were exactly the opposite. I hope that your company realizes what they have in you!. I will make sure that we use your company for all freight needs moving forward!",
     rating: 5,
   },
   {
     id: 4,
     name: "Aisha Kamara",
-    title: "Responsive Web Development",
+    title: "Logistics Coordinator",
     review:
-      "I reached out with a development query, and the team was quick to respond. Their expertise and collaboration made me confident in choosing this platform for my projects.",
+      "I reached out with a logistics query, and the World Wings team was quick to respond. Their expertise and collaboration made me confident in choosing this platform for managing our shipments. Reliable service with efficient solutions.",
     rating: 4,
   },
   {
     id: 5,
     name: "Chijioke Nwachukwu",
-    title: "Dependable Design Platform",
+    title: "Supply Chain Manager",
     review:
-      "In my experience with design tools, this platform stands out for its reliability. The features are robust, and the design process is smooth. Highly recommended for fellow creatives.",
+      "In my experience with logistics platforms, World Wings stands out for its dependability. The features are robust, and the shipment management process is smooth. Highly recommended for fellow logistics professionals.",
     rating: 5,
   },
-  {
-    id: 6,
-    name: "Fatou Traoré",
-    title: "Efficient UX Planning",
-    review:
-      "Planning user experiences has become much more efficient with this platform. The thoughtful interfaces and detailed design descriptions make it easy to create engaging digital products.",
-    rating: 4,
-  },
+];
+
+export const ctaImges = [
+  "https://th.bing.com/th/id/R.4ae95f35b0f49790f92357f09337d546?rik=hHxl%2fbpZCzAvaw&pid=ImgRaw&r=0",
+  "https://th.bing.com/th?id=OIF.crR8Q77ad1W56Ls%2fFWtgUg&rs=1&pid=ImgDetMain",
+  "https://fbbkinfotech.com/img/fbbk-about.jpg",
+  "https://th.bing.com/th/id/R.585d9c785c64ffaa8f872a9b356c7df6?rik=mgZycK6LQIz3Kg&riu=http%3a%2f%2fwww.navata.com%2fcms%2fwp-content%2fuploads%2f2020%2f05%2f3PL-Logistics-Company-2.jpg&ehk=rl1gR2o%2bW%2b1DmaXbin6ZxcCePHvnjSYKL3w7y1mhXNA%3d&risl=&pid=ImgRaw&r=0",
+];
+
+export const brands = [
+  "https://www.tripfiction.com/wp-content/uploads/2016/08/1920x1080-brands-amazon-logo.jpg",
+  "https://www.thedrive.com/content/2018/08/ebay-logo.jpg?quality=85",
+  "https://th.bing.com/th/id/R.65bc2af0231be020faa1a6a9576be04a?rik=lPUAQ8q5GdFOtQ&pid=ImgRaw&r=0",
+  "https://th.bing.com/th/id/OIP.qRUBW_JvdcVe9-jNWyF7nQAAAA?w=412&h=218&rs=1&pid=ImgDetMain",
+  "https://logos-world.net/wp-content/uploads/2020/05/Zara-Logo-2008-2019.png",
+  "https://download.logo.wine/logo/Sports_Direct/Sports_Direct-Logo.wine.png",
+  "https://th.bing.com/th/id/OIP.WPAIQstl2ZqZ9eVaVosgwQHaCQ?rs=1&pid=ImgDetMain",
+  "https://logodownload.org/wp-content/uploads/2022/09/zalando-logo.png",
+  "https://th.bing.com/th/id/OIP.8yw1oIHPnQUF8FB1CsKv_QHaCf?rs=1&pid=ImgDetMain",
+  "https://th.bing.com/th/id/OIP.6IGiaFwpvmpQYkLSR42JAAHaCl?rs=1&pid=ImgDetMain",
 ];

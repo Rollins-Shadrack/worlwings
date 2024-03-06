@@ -6,6 +6,7 @@ import Service from "./sections/Service";
 import WhereWeShip from "@/components/WhereWeShip";
 import CallToActionSection from "@/components/CallToActionSection";
 import HowWeWork from "./sections/HowWeWork";
+import { whereWeWorkImmigrationCards } from "@/constants/homepage";
 
 const index = () => {
   return (
@@ -14,7 +15,7 @@ const index = () => {
       <Container>
         <Stats />
         <Service />
-        <WhereWeShip />
+        <WhereWeShip title="Experience Seamless Immigration Services " styles="grid grid-cols-1 md:grid-cols-2 gap-10 my-7" data={ whereWeWorkImmigrationCards} />
         <HowWeWork />
       </Container>
       <CallToActionSection />
