@@ -104,6 +104,6 @@ export const faqs = [
   },
   {
     question: "Can you ship anything I want to?",
-    answer: "We will ship all our clients’ general goods. Depending on several factors we will at discretion decide whether to ship hazardous goods. Such include: explosives, gases, flammable liquid, flammable solids, oxidizing substances and organic peroxides, toxic and infectious substances, radioactive materials, corrosive materials, magnetized materials, dry ice, machines equipped with fuel tanks. For more information and clarifications you can send us an email .",
+    answer: "We will ship all our clients’ general goods. Depending on several factors we will at discretion decide whether to ship hazardous goods. Such include: gases, flammable liquid, flammable solids, oxidizing substances and organic peroxides, toxic and infectious substances, radioactive materials, corrosive materials, magnetized materials, dry ice, machines equipped with fuel tanks. For more information and clarifications you can send us an email .",
   },
 ];
