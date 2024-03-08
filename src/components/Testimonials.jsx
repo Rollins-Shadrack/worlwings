@@ -18,7 +18,7 @@ const Testimonials = () => {
           <div className="-m-2 mb-16 flex flex-wrap items-center justify-between">
             <div className="w-auto p-2">
               <h4 className="md:text-base text-xs  ">
-                Our clients are delighted with our logistics services, finding seamless solutions to schedule shipments with their preferred
+                Our clients are delighted with our logistics and Immigration services, finding seamless solutions to schedule shipments with their preferred
                 destinations effortlessly
               </h4>
             </div>

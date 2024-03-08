@@ -89,6 +89,11 @@ export const whereWeWorkCards = [
     title: "United States",
   },
   {
+    img: "https://media.istockphoto.com/id/1312550959/photo/the-city-of-london-skyline-at-night-united-kingdom.webp?b=1&s=170667a&w=0&k=20&c=G_lpSR2edaC7JwBqP7cPxN-a37M8uLbFL8IrRHKLTb0=",
+    flag: "https://media.istockphoto.com/id/1217765834/photo/flag-of-united-kingdom-blowing-in-the-wind.webp?b=1&s=170667a&w=0&k=20&c=GXXWJLCwj6QuRZh0p6xSEVc4eCTr6SZmkGTxXb8t__A=",
+    title: "United Kingdom",
+  },
+  {
     img: "https://media.istockphoto.com/id/1487205172/photo/early-morning-shot-over-strand-beach-near-cape-town.jpg?s=612x612&w=0&k=20&c=vqf30MXUCPR6ascmnusOvpA5wx2a58GVsqJ6Fzei6sU=",
     flag: "https://media.istockphoto.com/id/497566021/photo/flag-of-republic-of-south-africa.jpg?s=612x612&w=0&k=20&c=zLmhGuEbuWq5q8epVvCYxZwZFEKz7q9Y8TJk4QPN-yc=",
     title: "South Africa",
@@ -126,7 +131,7 @@ export const whereWeWorkImmigrationCards = [
 export const testimonials = [
   {
     id: 1,
-    name: "Sunit Bhaat",
+    name: "Sunita Bhatt",
     title: "Client",
     review:
       "I have used world wings to ship my items from India and they provide fast service with great rates. My shipments have always arrived on time and where there have been errors with the shipments of their other clients, they credit your money against your account. I highly recommend them!",
@@ -150,18 +155,26 @@ export const testimonials = [
   },
   {
     id: 4,
-    name: "Aisha Kamara",
-    title: "Logistics Coordinator",
+    name: "Irfan Qureshi",
+    title: "",
     review:
-      "I reached out with a logistics query, and the World Wings team was quick to respond. Their expertise and collaboration made me confident in choosing this platform for managing our shipments. Reliable service with efficient solutions.",
+      "World  Wings  Immigration Consultants excels in understanding client needs and providing transparent guidance on my OCI application  I'm sincerely thankful to the entire team, especially Ashley Dave",
     rating: 4,
   },
   {
     id: 5,
-    name: "Chijioke Nwachukwu",
+    name: "Rahul Katiyar",
     title: "Supply Chain Manager",
     review:
-      "In my experience with logistics platforms, World Wings stands out for its dependability. The features are robust, and the shipment management process is smooth. Highly recommended for fellow logistics professionals.",
+      "World Wings Immigration Consultants leads in immigration services in Kenya. Ashley  guided me through the Citizenship  process, ensuring I understood every step. The process was seamless and smooth",
+    rating: 5,
+  },
+  {
+    id: 6,
+    name: "Vidhi Patel",
+    title: "Supply Chain Manager",
+    review:
+      "I'm grateful for World Wings Immigration  and a special thanks to Ashley. My Kenyan Passport application process has been progressive ever since she became my case owner. She's my lucky charm.",
     rating: 5,
   },
 ];

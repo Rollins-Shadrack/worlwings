@@ -2,7 +2,7 @@ import { AppWindow, BookCheck, BookKey, BookType, BookUser, Briefcase, Building2
 
 export const stats = [
   {
-    number: "20000+",
+    number: "2000+",
     text: "Quality Service",
   },
   {

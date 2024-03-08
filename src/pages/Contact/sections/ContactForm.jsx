@@ -32,10 +32,18 @@ const ContactForm = () => {
   async function onSubmit(values) {
     console.log(values);
     await resend.emails.send({
-      from: "rshadrackochieng@gmail.com",
-      to: "rodgers.onyango22@gmail.com",
-      subject: "hello world",
-      react: <EmailTemplate firstName="John" product="MyApp" />,
+      from: values.email,
+      to: "sales@worldwings.co.ke",
+      subject: "Enquiry from the Website",
+      react: (
+        <EmailTemplate
+          firstName={values.firstName}
+          lastName={values.lastName}
+          email={values.email}
+          message={values.message}
+          mobileNumber={values.mobileNumber}
+        />
+      ),
     });
   }
   return (
@@ -138,7 +146,7 @@ const ContactForm = () => {
         <div className="">
           {contactCards.map((card, idx) => (
             <Card key={idx} className="mb-5">
-              <CardHeader>
+              <CardHeader className="py-2">
                 <div className="flex items-center space-x-5">
                   <div className="h-12 w-12 rounded-full bg-gray-200 flex items-center justify-center">
                     {React.createElement(card.icon, { size: "20" })}
@@ -146,9 +154,20 @@ const ContactForm = () => {
                   <div className="flex flex-col space-y-1">
                     <CardTitle className="font-semibold text-lg">{card.title}</CardTitle>
                     <CardDescription>{card.desc}</CardDescription>
-                    <a href={card.cta.link} className="font-medium underline">
-                      {card.cta.name}
+                    <a href={card.cta?.link} className="font-medium underline">
+                      {card.cta?.name}
                     </a>
+                    <div className="flex flex-wrap justify-between md:space-x-10">
+                      {card.location?.map((location, idx) => (
+                        <div key={idx}>
+                          <h6 className="text-sm text-gray-600 font-semibold">{location.location}</h6>
+                          <h6 className="text-sm font-medium text-brandRed">{location.country}</h6>
+                          <a href={location.link} className="font-medium underline">
+                            {location.link}
+                          </a>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </CardHeader>

@@ -21,7 +21,7 @@ const HowWeWork = () => {
               <div className="col-span-3">
                 <img
                   className="rounded-xl h-64 object-cover"
-                  src="https://images.unsplash.com/photo-1545315003-c5ad6226c272?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGhhcHB5JTIwaW1taWdyYW50c3xlbnwwfHwwfHx8MA%3D%3D"
+                  src="https://schlossky.com/wp-content/uploads/2019/05/Blog-WHAT-IS-AN-IMMIGRATION-CONSULTANT-1080x675.jpg"
                   alt=""
                 />
               </div>
@@ -29,7 +29,7 @@ const HowWeWork = () => {
               <div className="col-span-5">
                 <img
                   className="rounded-xl h-96 object-cover"
-                  src="https://images.unsplash.com/photo-1665686377065-08ba896d16fd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhhcHB5fGVufDB8fDB8fHww"
+                  src="https://newszetu.com/wp-content/uploads/2020/11/Kenyan-Passport.jpg"
                   alt="rollinscodes.com"
                 />
               </div>

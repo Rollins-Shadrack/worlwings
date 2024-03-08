@@ -1,4 +1,4 @@
-import { HelpCircle, MailOpen, MessageSquareDot } from "lucide-react";
+import { Building, HelpCircle, MailOpen, MessageSquareDot } from "lucide-react";
 
 export const contactCards = [
   {
@@ -7,7 +7,7 @@ export const contactCards = [
     desc: "We're here to help with any questions.",
     cta: {
       name: "Contact Support",
-      link: "tel:+254 795 889533",
+      link: "tel:+254795889533",
     },
   },
   {
@@ -27,6 +27,28 @@ export const contactCards = [
       name: "worldwingsnbi@gmail.com",
       link: "mailto:worldwingsnbi@gmail.com",
     },
+  },
+  {
+    icon: Building,
+    title: "Location",
+    desc: "If you wish to visit our offices",
+    location: [
+      {
+        location: "Frama Court Annex",
+        country:"Kenya",
+        link: "tel:+254718003461",
+      },
+      {
+        location: "Warehouse, GJ Apartments",
+        country:"Kenya",
+        link: "tel:+254715767907",
+      },
+      {
+        location: "2006 fort argyle road",
+        country:"United States",
+        link: "tel:+19124649333",
+      },
+    ],
   },
 ];
 

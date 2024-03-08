@@ -21,22 +21,19 @@ export const ourTeam = [
   {
     img: alyasin,
     name: "Alyasin Ali",
-    position: "CEO",
-    "desc": "I am delighted that you've explored more about World Wings Immigration Consultants and logistic service providers. Over our years of development, we've maximized advanced technologies, leveraging extensive expertise in Sea freight, Air freight, and warehousing to distinguish World Wings from competitors. These attributes grant us a notable competitive advantage, delivering 'Best-In-Class' integrated logistic solutions with seamless and transparent operations. We extend our gratitude to those who've entrusted us. I'm confident in a future filled with opportunities and challenges, assuring World Wings will continually uphold our commitment to integrity and professionalism. Expect consistently high-quality logistic solutions from us anytime, anywhere."
-
-    // desc: "I am delighted that you have taken the opportunity to learn more about World Wings Immigration Consultants and logistic service providers. During our years of development, World Wings has fully utilized advanced technologies. Our extensive experience in Sea freight, Air freight, and warehousing sets World Wings apart from our competitors. These characteristics provide us with a significant competitive edge in offering 'Best-In-Class' integrated logistic solutions with seamless and transparent operations. Thank you to all who have put their trust in us. I believe in our bright future filled with opportunities and challenges, and I am confident that World Wings will continually deliver on our presence and strive to perform with integrity and professionalism. You can expect consistently high-quality logistic solutions from us anytime, anywhere."
+    position: "CEO / Freight Forwarding ",
+    desc: "Hey!, I am Alyasin Ali and I am delighted that you have explored more about World Wings Immigration Consultants and logistic service providers. Over our years of development, we have maximized advanced technologies, leveraging extensive expertise in Sea freight, Air freight, and warehousing to distinguish World Wings from competitors. These attributes grant us a notable competitive advantage, delivering the 'Best-In-Class' integrated logistic solutions with seamless and transparent operations. We extend our gratitude to those who have entrusted us and I am confident in a future filled with opportunities and challenges assuring World Wings will continually uphold our commitment to integrity and professionalism. You can expect consistently high-quality logistic solutions from us anytime, anywhere.",
   },
   {
     img: ashley,
     name: "Ashley Dave",
-    position: "Immigration Consultant CEO",
-    desc: "As Ashley Dave, I hold an outstanding track record in facilitating Kenya-related government services with over 1000 satisfied clients worldwide. I am well-connected with government officials, ensuring a seamless and expedited process for document translations and meticulous paperwork needed for immigration purposes. I take great pride in delivering result-oriented solutions tailored to each client's needs in the shortest time possible. Let me be your dedicated contact point for all your immigration matters.",
+    position: " CEO / Immigration Consultant",
+    desc: "Greetings! I am Ashley Dave and I hold an outstanding track record in facilitating Kenyan and Indian-related government services with over 1000 satisfied clients worldwide. I am well-connected with government officials who  assist me to ensure a seamless and expedited process for document translations and meticulous paperwork that is required for immigration purposes. I take great pride in delivering result-oriented solutions tailored to each client's needs in the shortest time possible. Let me be your dedicated contact point for all your immigration services.",
   },
   {
     img: dave,
     name: "Ashutosh Dave",
-    position: "COO",
-     desc: "Thank you for visiting our website and showing great support for World Wings. We are a global shipping brand operating in over 200+ countries with strong networks. I take great pride in the business development growth from the United States office headquarters to other continents. I take on roles and responsibilities for driving strategic sales growth, vertical market development, and cross-sell initiatives to deepen customer relations and drive new business. Additionally, I oversee operations globally."
-
+    position: "COO / Global Operations ",
+    desc: "Thank you for visiting our website and showing great support for World Wings. We are a global shipping brand operating in over 200+ countries with strong networks. I take great pride in business development from the United States headquarters overlooking other continents. I take on roles and responsibilities for driving strategic sales growth and cross-sell initiatives to deepen customer relations and drive new business, while overseeing operations globally.",
   },
 ];

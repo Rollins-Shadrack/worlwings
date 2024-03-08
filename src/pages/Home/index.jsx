@@ -20,7 +20,7 @@ const index = () => {
         <PlanningProcess />
         <WhereWeShip
           title="Shop and Ship from anywhere around the globe"
-          styles="grid grid-cols-1 md:grid-cols-5 gap-10 my-7"
+          styles="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-5 my-7"
           data={whereWeWorkCards}
         />
         <Testimonials />

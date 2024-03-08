@@ -5,7 +5,7 @@ import React from 'react'
 const Team = () => {
   return (
     <div className="py-10">
-      <h1 className="md:text-3xl text-xl text-brandRed font-bold text-center mb-3">Meet Our Team</h1>
+      <h1 className="md:text-3xl text-xl text-brandRed font-bold text-center mb-3">Board of Directors</h1>
 
       <p className="text-gray-500 text-lg text-center">Discover the Trailblazers Behind World Wings Logistics and Immigration Consultants</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 my-5">
